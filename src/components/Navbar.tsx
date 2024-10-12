@@ -1,7 +1,6 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { li } from "framer-motion/client";
 import Link from "next/link";
 import { useState } from "react";
 import { AiOutlineClose, AiOutlineMenu } from "react-icons/ai";
