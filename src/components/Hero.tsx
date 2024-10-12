@@ -12,7 +12,7 @@ const Hero = () => {
   return (
 
     <>
-    <div className="relative py-24 overflow-clip bg-gradient-to-t from-emerald-800 to-gray-1000">
+    <div className="relative py-24 overflow-clip bg-gradient-to-t from-teal-500 to-gray-1000">
       
       <div className='absolute rounded-[50%] h-[1300px] w-[3000px] bg-black top-[550px] left-[50%] -translate-x-1/2 bg-[radial-gradient(closest-side,#000_80%,#2B1942)]'>
       </div>
@@ -58,7 +58,7 @@ const Hero = () => {
     
 
     <p className='text-center text-xl max-w-[500px] mx-auto mt-8 text-white/80' >
-        I am a Full-Stack Developer focused on creating websites that provide the vest user experience
+        I am a Full-Stack Developer focused on creating websites that provide the best user experience
     </p>
 
     
