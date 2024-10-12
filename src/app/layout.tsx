@@ -14,9 +14,17 @@ const geistMono = localFont({
 });
 
 export const metadata: Metadata = {
-  title: "Aliakram",
-  description: "Genrated by ali akram",
-  keywords: ["ali akram", "javascript"],
+  title: "Shahzad Akram Web developer",
+  description:
+    "I am Shahzad Akram with three years of experience in Front-End Development. With practical experience at Webloop, I’m sure to be your next web developer.",
+  keywords: [
+    "next js",
+    "shahzad akram",
+    "react js",
+    "webloop.pk",
+    "gilgit",
+    "hire web dev",
+  ],
 };
 
 export default function RootLayout({

@@ -19,8 +19,8 @@ const Hero = () => {
       
        <div className='relative'>
         <div className="text-8xl font-bold text-center">
-            <h1 className="text-[#98B4CE]">Hi, I am</h1>
-            <h1 className="text-[#E48A57]">Shahzad Akram</h1>
+            <h2 className="text-[#98B4CE]">Hi, I am</h2>
+            <h1 className="text-[#E48A57]">Shahzad Akram, Web developer</h1>
         </div>
 
 
