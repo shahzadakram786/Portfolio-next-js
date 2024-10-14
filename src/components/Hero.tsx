@@ -1,11 +1,11 @@
 'use client'
 
-import html from '../assets/Html Coding (1).png'
-import code from '../assets/Programming Language (1).png'
+// import html from '../assets/Html Coding (1).png'
+// import code from '../assets/Programming Language (1).png'
 import picture from '../assets/smiling-anime-chibi-cartoon-boy-working-computer-white-background-smiling-anime-chibi-cartoon-boy-working-computer-321914300.png'
-import { motion } from "framer-motion";
+// import { motion } from "framer-motion";
 import Image from "next/image";
-
+import Typewriter from 'typewriter-effect'
 
 
 const Hero = () => {
@@ -18,12 +18,23 @@ const Hero = () => {
       </div>
       
        <div className='relative'>
-        <div className="text-8xl font-bold text-center">
-            <h2 className="text-[#98B4CE]">Hi, I am</h2>
-            <h1 className="text-[#E48A57]">Shahzad Akram, Web developer</h1>
+        <div className="font-bold text-center">
+            <h2 className="text-[#98B4CE] text-5xl">Hi, I am</h2>
+            <h1 className="text-[#E48A57] text-8xl font-serif">Shahzad Akram, a</h1>
+            <span className='text-white/70 text-4xl'>
+  
+              <Typewriter 
+                    options={{
+                      strings: ['Frontend Developer', 'Full-Stack Developer', 'React Enthusiast', 'Next.js Specialist'],
+                      autoStart: true,
+                      loop: true,
+                    }}
+                  />
+              
+            </span>
         </div>
 
-
+{/* 
       <motion.div
       className="absolute left-[280px] top-[90px]"
       drag>
@@ -53,7 +64,7 @@ const Hero = () => {
 
             </Image>
 
-      </motion.div>
+      </motion.div> */}
 
     
 
