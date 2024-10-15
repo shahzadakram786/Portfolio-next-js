@@ -56,7 +56,7 @@ const Portfoilio = () => {
 
 <h1 className='text-white text-6xl max-w-[320px] mx-auto my-12 mtfont-semibold p-4 mb-4'>Selected <span className='text-orange-400'> Projects</span> </h1>
 
-            <div className='max-w-[1000px] mx-auto mt-32 space-y-24'>
+            <div className='px-6 md:px-0 max-w-[1000px] mx-auto mt-32 space-y-24'>
                 {projects.map((project ,index) => (
                     <motion.div
                         key={index}
@@ -64,7 +64,7 @@ const Portfoilio = () => {
                         whileInView={{opacity:1, y:0}}
                         viewport={{once:true}}
                         transition={{duration:0.5 , delay:0.25}}
-                        className={`mt-12 flex ${index % 2 === 1 ? "flex-col-reverse md:flex-row-reverse gap-12": "flex-col md:flex-row"}`}>
+                        className={`mt-12 flex flex-col gap-12 ${index % 2 === 1 ? "md:flex-row-reverse ": " md:flex-row"}`}>
                         <div className='space-y-2 max-w-[500px]'>
 
                             <h2 className='text-7xl my-4 text-white/70'>{`0 ${index + 1}`}</h2>
@@ -72,10 +72,9 @@ const Portfoilio = () => {
                             <p className='text-lg text-white/70 break-words p-4'>{project.desc}</p>
                             <p className='text-xl text-orange-400 font-semibold'>{project.devstack}</p>
 
-                            <div className='w-64 h-[1px] bg-gray-400 my-4'>
+                            <div className='w-64 h-[1px] bg-gray-400 mt-20'>
                                 <Link href={project.link} className='mr-6'>Link</Link>
-                                <Link href={project.git}>Git</Link>
-
+                                <Link  href={project.git}>Git</Link>
                             </div>
                         </div>
 
