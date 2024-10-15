@@ -1,7 +1,7 @@
-import { div } from 'framer-motion/client'
+
 import React from 'react'
 import {FaHtml5 , FaCss3Alt , FaReact , FaJsSquare, FaNodeJs, FaBootstrap, FaPython, FaPhp} from 'react-icons/fa'
-import { FaDiagramNext } from 'react-icons/fa6'
+
 
 
 
