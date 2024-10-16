@@ -12,7 +12,7 @@ const About = () => {
 
         <h1 className='text-white text-6xl max-w-[320px] mx-auto font-semibold p-4 mb-4'>About <span className='text-orange-400'>Me</span> </h1>
             
-            <div className='px-6 md:p-0 grid  md:grid-cols-8 gap-6 place-items-center '>
+            <div className='px-6 grid md:p-0  md:grid-cols-8 gap-6 place-items-center '>
 
                 <div className='w-full col-span-5 relative bg-white/10 backdrop-blur-lg border border-white/20 rounded-xl overflow-hidden'>
                     {/* for animation backroung color  */}

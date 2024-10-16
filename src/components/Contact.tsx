@@ -33,7 +33,7 @@ const Contact = () => {
 
             <h2 className='text-5xl font-bold text-orange-400 mb-4'>Let's Connect</h2>
             <p className='text-white/70 mb-6'>Send me a messeage and lets schedule a call! </p>
-            <form action="https://getform.io/f/akkgmgza"  method='post' className='space-y-4'>
+            <form   action="https://formspree.io/f/xldeeorb"  method='post' className='space-y-4'>
                <div className=' grid md:grid-cols-2 gap-4'>
 
                   <input type="text" name='name' className='bg-black/70 rounded-xl p-3 focus:outline-none focus:ring-2 foucs:ring-orange-400' placeholder='First Name' />
@@ -45,10 +45,10 @@ const Contact = () => {
                   <input type="phone" name='phone' className='bg-black/70 rounded-xl p-3 focus:outline-none focus:ring-2 foucs:ring-orange-400' placeholder='Phone' />
                   
                </div>
-               <textarea className= ' w-full bg-black/70 rounded-xl p-3 focus:outline-none focus:ring-2 foucs:ring-orange-400' 
-               placeholder='Enter Your Message' name="" id=""/>
+               <textarea name='message' className= ' w-full bg-black/70 rounded-xl p-3 focus:outline-none focus:ring-2 foucs:ring-orange-400' 
+               placeholder='Enter Your Message' id=""></textarea>
 
-               <button className='bg-orange-700 hover:bg-orange-500 text-white  font-semibold text-xl  py-6 w-full rounded-xl p-3 '>Send Message</button>
+               <button type='submit' className='bg-orange-700 hover:bg-orange-500 text-white  font-semibold text-xl  py-6 w-full rounded-xl p-3 '>Send Message</button>
             </form>
 
         </div>
