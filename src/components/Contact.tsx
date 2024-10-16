@@ -3,6 +3,9 @@ import React from 'react'
 import { CgMail } from 'react-icons/cg'
 import { FaPhone } from 'react-icons/fa'
 
+/* eslint-disable react/no-unescaped-entities */
+
+
 
 
 
