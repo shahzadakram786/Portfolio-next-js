@@ -11,7 +11,7 @@ import { FaPhone } from 'react-icons/fa'
 
 const Contact = () => {
   return (
-    <div className='max-w-[1000px] mx-auto flex flex-col gap-12 p-8 lg:flex-row text-white/70 rounded-lg space-y-8 lg:space-y-0 lg:space-x-8'>
+    <div className='max-w-[1000px] mx-auto flex flex-col gap-12 p-8 lg:flex-row text-white/70 rounded-lg space-y-8 lg:space-y-0 lg:space-x-8 sm:flex sm:mx-auto sm:flex-column' id='contact'>
 
         
         <div className='flex justify-center items-center'>
@@ -29,7 +29,7 @@ const Contact = () => {
 
             </ul>
         </div>
-        <div className='bg-white/10 p-6 rounded-xl max-w-[550px]'>
+        <div className='bg-white/10 p-6 rounded-xl max-w-[550px] sm:mx-auto'>
 
             <h2 className='text-5xl font-bold text-orange-400 mb-4'>Let's Connect</h2>
             <p className='text-white/70 mb-6'>Send me a messeage and lets schedule a call! </p>
