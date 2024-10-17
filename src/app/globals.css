@@ -41,3 +41,7 @@ body {
   animation: gradient-xy 5s ease infinite;
   background-size: 200% 200%;
 }
+
+.Great_Vibes{
+  font-family: var(--font-great_vibes);
+}
