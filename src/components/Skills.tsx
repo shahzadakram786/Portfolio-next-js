@@ -27,11 +27,11 @@ const Skills = () => {
         <div className='text-white  md:max-w-[950px] mx-auto p-8 text-center'>
             <h2 className='text-6xl font-bold mb-4'>What I DO</h2>
 
-            <div className='grid grid-cols-2 sm:grid-cols-3  md:grid-cols-4 gap-6'>
+            <div className='grid max-[390px]:grid-cols-1 grid-cols-2 sm:grid-cols-3  md:grid-cols-4 gap-2'>
                 {
                     skillIcons.map((skill, index)=>(
                         <div
-                        key={index} className='h-[260px] w-[220px] sm:w-[190px] flex flex-col justify-between items-center bg-white/10 p-4 rounded-xl'>
+                        key={index} className='h-[260px] md:w-[220px] sm:w-[190px] flex flex-wrap flex-col justify-between items-center bg-white/10 p-4 rounded-xl'>
                             {skill.icon}
                             <p className='mt-2'>{skill.label}</p>
                         </div>

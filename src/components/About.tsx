@@ -18,7 +18,7 @@ const About = () => {
                     {/* for animation backroung color  */}
                    <div className='absolute inset-0 bg-gradient-to-r from-orange-400 via-purple-700 to-orange-800 opacity-30 animate-gradient-xy'></div>
                    
-                    <div className='flex flex-row p-6'>
+                    <div className='flex flex-row p-6 '>
                         <Image
                         src={book}
                         alt='book'
