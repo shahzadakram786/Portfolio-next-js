@@ -2,9 +2,6 @@ import Link from 'next/link'
 import React from 'react'
 import { BsGithub, BsLinkedin } from 'react-icons/bs'
 import { CgInstagram } from 'react-icons/cg'
-import { CiLinkedin } from 'react-icons/ci'
-import { FaLinkedinIn, FaStaylinked } from 'react-icons/fa'
-import { LiaLinkedin, LiaLinkedinIn } from 'react-icons/lia'
 
 
 const Footer = () => {
