@@ -1,7 +1,11 @@
+/* eslint-disable react/no-unescaped-entities */
+
+
 import Link from 'next/link'
 import React from 'react'
 import { BsGithub, BsLinkedin } from 'react-icons/bs'
 import { CgInstagram } from 'react-icons/cg'
+
 
 
 const Footer = () => {
