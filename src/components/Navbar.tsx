@@ -1,5 +1,6 @@
 "use client";
-
+// eslint-disable-next-line @typescript-eslint/no-unused-vars
+ 
 import { motion } from "framer-motion";
 import Link from "next/link";
 import { useState } from "react";
