@@ -1,3 +1,6 @@
+/* eslint-disable react/no-unescaped-entities */
+
+
 
 import book from '../assets/book.png'
 import pc from '../assets/3d-workstation-with-computer-peripheral-devices.png'
